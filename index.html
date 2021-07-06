@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="header-top">
             <div class="logo-area">
                 <h3><span id="highlight-color">Food</span> Network</h3>
             </div>
             
             <ul class="menu-area">
-                <li><a id="active" href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Recipes</a></li>
-                <li><a href="#">Public Review</a></li>
+                <li><a id="active" href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#recipes">My Recipes</a></li>
+                <li><a href="#public-review">Public Review</a></li>
             </ul>
             
         </div>
@@ -35,17 +35,19 @@
             </div>
         </div>
     </header>
-    <section class="about-me area">
+
+    <section class="about-me area" id="about-me">
         <div class="images-area">
             <img id="about-picture" src="images/female/Person Image.png" alt="food network">
         </div>
         <div class="description-area">
             <h2>About Me</h2>
-            <p>Hard-working web developer with a flair for creating elegant solutions in the least amount of time. Developed an ecommerce webapp, customer web portal, documentary launch website, and donations webapp for a local charity. Passionate about software architecture and cloud computing. Regular attendee of web developer meetups and hackathons. </p>
+            <p>Hard-working web developer with a flair for creating elegant solutions in the least amount of time. Developed an ecommerce webapp, customer web portal, documentary launch website, and donations webapp for a local charity. </p>
             <a href="https://www.facebook.com/tanvin.pavel.1/" id="link-button">Contact Me</a>
         </div>
     </section>
-    <section class="recipes">
+
+    <section class="recipes" id="recipes">
         <h2>My Recipes</h2>
         <p id="recipes-para">Love Food Network shows, chefs and recipes? Find the best recipe ideas, videos, healthy eating advice, party ideas and cooking techniques from top chefs, shows and experts.</p>
         <div class="card area">
@@ -80,6 +82,31 @@
             </div>
         </div>
     </section>
+
+    <section class="review-section" id="public-review">
+        <h2>What People Are Saying</h2>
+        <div class="customer-box area">
+            <div class="review">
+                <img src="images/customer/01.jpg" alt="customer">
+                <p class="name">Tawsif Ekteder</p>
+    
+                <p id="comment"><q>A lot of features and ready-made solutions.</q></p>
+            </div>
+            <div class="review">
+                <img src="images/customer/03.jpg" alt="customer">
+                <p>Jaismeen Acter</p>
+    
+                <p id="comment"><q>For the first time I see such high-quality work, everything is just fine.</q></p>
+            </div>
+            <div class="review">
+                <img src="images/customer/cus-2.jpg" alt="customer">
+                <p>Tanvir Pavel</p>
+    
+                <p id="comment"><q>Everything is just fine. The design is incredible.</q></p>
+            </div>
+        </div>
+    </section>
+
     <footer class="footer">
         <h3><span id="highlight-color">Food</span> Network</h3>
         <p>Eat healthy to live healthy. Live heal  thy to live happy</p>

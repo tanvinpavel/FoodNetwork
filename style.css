@@ -124,9 +124,12 @@ h2{
 #recipes-para{
     color: #323232;
     width: 60%;
-    margin: 0 auto;
-    font-size: 18px;
+    margin: 20px auto;
+    font-size: 16px;
     line-height: 1.5em;
+}
+.card{
+    padding-top: 20px;
 }
 .box{
     width: 34%;
@@ -172,6 +175,36 @@ h2{
 }
 .social p{
     color: #4f5055;
+}
+
+/* review area design */
+.review-section{
+    background: url(images/shapes/7.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.customer-box{
+    padding-top: 60px;
+}
+
+.review{
+    width: 50%;
+    border-radius: 50%;
+}
+.review img{
+    width: 200px;
+    height: 200px;
+    border: 7px solid #fb9249;
+    border-radius: 50%;
+    box-shadow: 1px 1px 15px 1px rgb(202, 202, 202);
+}
+
+#comment{
+    color: #737373;
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* footer area design */
