@@ -37,6 +37,8 @@ h2{
     background: url(images/shapes/header-bg.jpg) center no-repeat;
     background-size: cover;
 }
+
+/* menu bar design */
 .header-top{
     display: flex;
     padding-bottom: 30px;
@@ -74,6 +76,7 @@ h2{
     box-shadow: 1px 1px 11px 1px #fc8f49;
 }
 
+/* header bottom area design */
 .description-area{
     width: 50%;
     padding-top: 120px;
