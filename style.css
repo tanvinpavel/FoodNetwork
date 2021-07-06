@@ -17,7 +17,7 @@ h2{
 }
 .area{
     display: flex;
-    padding: 40px 60px;
+    padding: 0 60px 40px;
 }
 #highlight-color{
     color: #fb9249;
@@ -37,9 +37,46 @@ h2{
     background: url(images/shapes/header-bg.jpg) center no-repeat;
     background-size: cover;
 }
+.header-top{
+    display: flex;
+    padding-bottom: 30px;
+}
+.logo-area{
+    width: 30%;
+}
+.logo-area h3{
+    font-size: 30px;
+    margin: 16px 0 16px 40px;
+}
+.menu-area{
+    width: 70%;
+    list-style: none;
+    padding-left: 0;
+    margin-right: 40px;
+    text-align: right;
+}
+.menu-area li{
+    display: inline-block;
+}
+.menu-area li a{
+    text-decoration: none;
+    color: #737373;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 8px;
+}
+.menu-area li a:hover, .menu-area li a#active{
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-image: linear-gradient(45deg,#fc8f49,#fd4d30);
+    display: inline-block;
+    box-shadow: 1px 1px 11px 1px #fc8f49;
+}
+
 .description-area{
     width: 50%;
-    padding-top: 180px;
+    padding-top: 120px;
     margin-left: 30px;
 }
 .images-area{
@@ -61,6 +98,7 @@ h2{
     background-position: center;
     background-size: cover;
     padding-bottom: 0;
+    padding-top: 80px;
 }
 .about-me .description-area{
     padding-top: 100px;
@@ -103,6 +141,7 @@ h2{
     border-radius: 20px;
 }
 .box h2{
+    display: inline-block;
     margin-top: 40px;
     color: #18191f;
     font-size: 30px;
