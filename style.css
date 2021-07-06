@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Tahoma';
+    margin: 0;
+}
+h1{
+    font-size: 57px;
+    font-weight: 600;
+    color: #575757;
+    margin: 10px 0;
+}
+h2{
+    color: #707070;
+    font-size: 40px;
+}
+.area{
+    display: flex;
+    padding: 40px 60px;
+}
+#highlight-color{
+    color: #fb9249;
+}
+#link-button{
+    text-decoration: none;
+    color: white;
+    padding: 20px 35px;
+    border-radius: 50px;
+    background-image: linear-gradient(45deg,#fc8f49,#fd4d30);
+    display: inline-block;
+    box-shadow: 1px 1px 11px 1px #fc8f49;
+}
+
+/* header area design */
+.header{
+    background: url(images/shapes/header-bg.jpg) center no-repeat;
+    background-size: cover;
+}
+.description-area{
+    width: 50%;
+    padding-top: 180px;
+    margin-left: 30px;
+}
+.images-area{
+    width: 50%;
+}
+.images-area img{
+    width: 100%;
+}
+.description-area p{
+    color: #828282;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 40px 0;
+}
+
+/* about area design */
+.about-me{
+    background: url(images/shapes/7.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 0;
+}
+.about-me .description-area{
+    padding-top: 100px;
+}
+#about-picture{
+    width: 60%;
+}
+.about-me .images-area{
+    text-align: center;
+}
+.about-me p{
+    color: #222328;
+}
+
+/* recipe area design */
+.recipes{
+    text-align: center;
+    width: 100%;
+}
+#recipes-para{
+    color: #323232;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.box{
+    width: 34%;
+    margin: 35px;
+    padding: 20px;
+    box-shadow: 1px 1px 15px 1px rgb(202, 202, 202);
+    border-radius: 30px;
+    text-align: left;
+}
+
+.box img{
+    width: 100%;
+    height: 328px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.box h2{
+    margin-top: 40px;
+    color: #18191f;
+    font-size: 30px;
+}
+.box p{
+    font-size: 16px;
+    line-height: 2em;
+    color: #707070;
+}
+
+/* social-media section design */
+.social-media{
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px 1px rgb(202, 202, 202);
+    margin: 0 auto 80px;
+    display: flex;
+}
+.social{
+    width: 34%;
+    padding: 20px 0;
+}
+.social h2{
+    color: #18191f;
+}
+.social p{
+    color: #4f5055;
+}
+
+/* footer area design */
+.footer{
+    height: 250px;
+    text-align: center;
+    background-color: #0b0d17;
+    
+}
+.footer h3{
+    font-size: 35px;
+    color: #5a5a5a;
+    display: inline-block;
+}
+.footer p{
+    color: white;
+    font-size: 18px;
+}
