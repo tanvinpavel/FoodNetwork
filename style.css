@@ -42,6 +42,7 @@ h2{
 .header-top{
     display: flex;
     padding-bottom: 30px;
+    padding-top: 20px;
 }
 .logo-area{
     width: 30%;
